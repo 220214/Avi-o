@@ -45,20 +45,20 @@ public class Avião extends Thread {
 
 	private void afast(String nome) {
 		afastamento= (int)((Math.random()*5000)+ 3000)/1000;
-		System.out.println("Na Pista "+ nome + " O avião está se afastando em  "+ decolagem1);
+		System.out.println("Na Pista "+ nome + " O avião está se afastando em  "+ decolagem1+" segundos");
 		System.out.println(" ");
 	}
 	private void dec(String nome ) {
 		decolagem1 = (int)((Math.random()*1000)+ 4000)/1000;
-		System.out.println("Na Pista "+ nome + " Está na fase de decolagem em  "+ decolagem1);
+		System.out.println("Na Pista "+ nome + " Está na fase de decolagem em  "+ decolagem1+ " segundos");
 	}
 	private void tax(String nome) {
 		taxiar1 = (int)((Math.random()*5000)+ 5000)/ 1000;
-		System.out.println("Na Pista "+ nome + " está taxiando por "+ taxiar1);
+		System.out.println("Na Pista "+ nome + " está taxiando por "+ taxiar1+" segundos");
 	}
 	private void ma(String nome) {
 		manobra1 = (int)((Math.random()*4000)+ 3000)/1000;
-		System.out.println("Na Pista "+ nome +" fazendo Manobra "+ manobra1);
+		System.out.println("Na Pista "+ nome +" fazendo Manobra "+ manobra1 + " segundos");
 	}
 	private void sul() {
 		nome2 =" sul";
